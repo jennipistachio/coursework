@@ -1,0 +1,107 @@
+body{
+    max-width: 900px;
+}
+
+h1{
+    color:green;
+    text-align: center;
+}
+
+h2{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.canned-food{
+    position: relative;
+    left: -10px;
+
+}
+
+.canned-box{
+    height: 150px;
+    width: 170px;
+    background-color: lightblue;
+    position: absolute;
+    top: 140px;
+    right: 425px;
+    z-index: -1;
+}
+
+.dry-box{
+    height: 150px;
+    width: 170px;
+    background-color: lightblue;
+    position: absolute;
+    top: 140px;
+    right: 220px;
+    z-index: -1;
+}
+
+
+.dry-food{
+    position: relative;
+    top: -115px;
+    right: -210px;
+
+}
+
+.pantry{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -235px;
+    right: -390px;
+   
+}
+
+.freezer-title{
+    position: relative;
+    top: -200px;
+}
+
+.vegatables{
+    position: relative;
+    top: -200px;
+}
+
+.vegatables-box{
+    height: 150px;
+    width: 170px;
+    background-color: lightblue;
+    position: absolute;
+    top: 410px;
+    right: 425px;
+    z-index: -1;
+}
+
+.snacks{
+    position: relative;
+    top: -300px;
+    right: -210px;
+}
+
+.snack-box{
+    height: 150px;
+    width: 170px;
+    background-color: lightblue;
+    position: absolute;
+    top: 410px;
+    right: 220px;
+    z-index: -1;
+}
+
+.freezer{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -435px;
+    right: -390px;
+}
+
+footer{
+    text-align: center;
+    background-color: aquamarine;
+}
